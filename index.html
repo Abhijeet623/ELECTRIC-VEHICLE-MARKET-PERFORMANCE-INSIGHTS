@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Insights | Market Analytics</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f3f7fa;color:#17283b;line-height:1.6}
+nav{background:#102238;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+nav strong{font-size:21px}
+nav a{color:#e1edf5;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:75px 8%;background:linear-gradient(120deg,#102238,#087e80);color:white}
+.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.15;max-width:800px}
+.hero p{max-width:700px;margin:20px 0;color:#dce9f1}
+.btn{display:inline-block;background:#25c58b;color:#092e2a;padding:12px 22px;border-radius:7px;text-decoration:none;font-weight:bold;margin:5px 8px 5px 0}
+section{padding:65px 8%}
+h2{font-size:30px;margin-bottom:10px}
+.sub{color:#65758a;margin-bottom:25px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:white;padding:23px;border-radius:13px;box-shadow:0 4px 20px #142d4510}
+.card h3{color:#087e80;margin-bottom:9px}
+.embed{background:white;padding:12px;border-radius:13px;box-shadow:0 4px 20px #142d4510}
+iframe{display:block;width:100%;height:760px;border:0}
+.story{margin-bottom:38px}
+.tag{color:#07836e;font-weight:bold;font-size:12px;letter-spacing:1px}
+footer{background:#102238;color:white;text-align:center;padding:35px}
+footer p{color:#c4d4e2;font-size:13px}
+@media(max-width:650px){
+nav{padding:16px 5%}
+nav a{margin:0 7px}
+.hero{padding:55px 6%}
+section{padding:45px 6%}
+iframe{height:550px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<strong>⚡ EV INSIGHTS</strong>
+<div>
+<a href="#about">About</a>
+<a href="#dashboard">Dashboard</a>
+<a href="#stories">Stories</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="tag">DATA ANALYTICS WITH TABLEAU</div>
+<h1>Electric Vehicle Market Performance & Insights</h1>
+<p>Exploring the electric vehicle market through interactive
+visualisations and data storytelling. Understand manufacturers,
+battery technologies, vehicle range and customer satisfaction.</p>
+<a class="btn" href="#dashboard">Explore Dashboard ↓</a>
+<a class="btn" href="#stories">Explore Stories</a>
+</header>
+
+<section id="about">
+<div class="tag">PROJECT OVERVIEW</div>
+<h2>About the Project</h2>
+<p class="sub">An electric vehicle market analytics project using
+Tableau to transform dataset records into meaningful insights.</p>
+<div class="cards">
+<div class="card"><h3>Manufacturer Analysis</h3>
+<p>Compare recorded manufacturer sales and performance.</p></div>
+<div class="card"><h3>Battery Technology</h3>
+<p>Explore the distribution and characteristics of battery types.</p></div>
+<div class="card"><h3>Driving Range</h3>
+<p>Analyse battery capacity and vehicle driving range.</p></div>
+<div class="card"><h3>Customer Insights</h3>
+<p>Compare recorded customer ratings across manufacturers.</p></div>
+</div>
+</section>
+
+<section id="dashboard">
+<div class="tag">INTERACTIVE ANALYTICS</div>
+<h2>EV Market Performance Dashboard</h2>
+<p class="sub">Explore all eight Tableau visualisations.</p>
+<div class="embed">
+<iframe title="EV Market Dashboard"
+src="https://public.tableau.com/views/EV_Market_Performance_Insights_17933841107250/ELECTRICVEHICLEMARKETPERFORMANCEINSIGHTS?:showVizHome=no&:embed=true&:toolbar=yes"
+allowfullscreen></iframe>
+</div>
+<p style="margin-top:15px">
+<a class="btn" target="_blank" rel="noopener"
+href="https://public.tableau.com/app/profile/abhijeet.singh.vashishthe/viz/EV_Market_Performance_Insights_17933841107250/ELECTRICVEHICLEMARKETPERFORMANCEINSIGHTS">Open Dashboard on Tableau Public</a>
+</p>
+</section>
+
+<section id="stories">
+<div class="tag">DATA STORYTELLING</div>
+<h2>Project Stories</h2>
+<p class="sub">Two stories explaining different aspects of EV market performance.</p>
+
+<div class="story">
+<div class="card">
+<h3>Story 1: EV Market Performance Overview</h3>
+<p>Manufacturer sales, battery technology distribution,
+manufacturing countries and model-year sales patterns.</p>
+</div>
+<div class="embed" style="margin-top:14px">
+<iframe title="EV Market Performance Story"
+src="https://public.tableau.com/views/EV_Market_Performance_InsightsStory1_17932123473130/EVMarketperformanceOverview?:showVizHome=no&:embed=true&:toolbar=yes"
+allowfullscreen></iframe>
+</div>
+<p style="margin-top:12px">
+<a class="btn" target="_blank" rel="noopener"
+href="https://public.tableau.com/app/profile/abhijeet.singh.vashishthe/viz/EV_Market_Performance_InsightsStory1_17932123473130/EVMarketperformanceOverview">Open Story 1</a>
+</p>
+</div>
+
+<div class="story">
+<div class="card">
+<h3>Story 2: EV Technology and Customer Insights</h3>
+<p>Driving range comparisons, battery capacity relationships,
+customer satisfaction and battery technology analysis.</p>
+</div>
+<div class="embed" style="margin-top:14px">
+<iframe title="EV Technology and Customer Insights Story"
+src="https://public.tableau.com/views/EV_Market_Performance_InsightsStory2_17932126422250/EVTechnologyandCustomerinsights?:showVizHome=no&:embed=true&:toolbar=yes"
+allowfullscreen></iframe>
+</div>
+<p style="margin-top:12px">
+<a class="btn" target="_blank" rel="noopener"
+href="https://public.tableau.com/app/profile/abhijeet.singh.vashishthe/viz/EV_Market_Performance_InsightsStory2_17932126422250/EVTechnologyandCustomerinsights">Open Story 2</a>
+</p>
+</div>
+</section>
+
+<section>
+<div class="tag">PROJECT TECHNOLOGIES</div>
+<h2>Tools Used</h2>
+<div class="cards">
+<div class="card"><h3>Tableau Public</h3>
+<p>Dashboard creation, visual analytics and storytelling.</p></div>
+<div class="card"><h3>CSV Dataset</h3>
+<p>Electric vehicle dataset used for analysis.</p></div>
+<div class="card"><h3>HTML & CSS</h3>
+<p>Website design and project presentation.</p></div>
+</div>
+</section>
+
+<footer>
+<h3>⚡ EV Insights</h3>
+<p>Electric Vehicle Market Performance & Insights</p>
+<p>Data Analytics with Tableau | Academic Project</p>
+</footer>
+</body>
+</html>
